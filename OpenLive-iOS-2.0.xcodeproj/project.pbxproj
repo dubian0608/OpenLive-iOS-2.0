@@ -7,21 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0D4F1B1F2ED9EC0071F632 /* LiveRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0D4F1A1F2ED9EC0071F632 /* LiveRoomViewController.swift */; };
+		0F0D4F1D1F2F034D0071F632 /* VideoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0D4F1C1F2F034D0071F632 /* VideoSession.swift */; };
+		0F3D73261F2E2A21005F25B6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D73251F2E2A21005F25B6 /* SettingViewController.swift */; };
+		0F3D73281F2E2A9D005F25B6 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D73271F2E2A9D005F25B6 /* ProfileCell.swift */; };
+		0F3D732A1F2E2AFC005F25B6 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D73291F2E2AFC005F25B6 /* KeyCenter.swift */; };
+		0F3D732D1F2E3A45005F25B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3D732B1F2E3A45005F25B6 /* Main.storyboard */; };
+		0F710D9E1F32ECEC002E886D /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F710D9D1F32ECEC002E886D /* Publisher.swift */; };
+		0FACB31A1F28A993000E58D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACB3191F28A993000E58D4 /* MainViewController.swift */; };
+		0FC623BB1F31AB8500D21EFF /* VideoViewLayouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC623BA1F31AB8500D21EFF /* VideoViewLayouter.swift */; };
 		0FD0C8B61F28620900B901A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C8B51F28620900B901A7 /* AppDelegate.swift */; };
-		0FD0C8B81F28620900B901A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C8B71F28620900B901A7 /* ViewController.swift */; };
-		0FD0C8BB1F28620900B901A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD0C8B91F28620900B901A7 /* Main.storyboard */; };
 		0FD0C8BD1F28620900B901A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD0C8BC1F28620900B901A7 /* Assets.xcassets */; };
 		0FD0C8C01F28620900B901A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD0C8BE1F28620900B901A7 /* LaunchScreen.storyboard */; };
+		0FD0C8C91F28643900B901A7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8C81F28643900B901A7 /* libresolv.tbd */; };
+		0FD0C8CB1F28645100B901A7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8CA1F28645100B901A7 /* CoreTelephony.framework */; };
+		0FD0C8CD1F28646200B901A7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8CC1F28646200B901A7 /* CoreMedia.framework */; };
+		0FD0C8CF1F28646C00B901A7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8CE1F28646C00B901A7 /* CoreMotion.framework */; };
+		0FD0C8D11F28647B00B901A7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8D01F28647B00B901A7 /* VideoToolbox.framework */; };
+		0FD0C8D31F28648200B901A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8D21F28648200B901A7 /* AudioToolbox.framework */; };
+		0FD0C8D51F28648E00B901A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8D41F28648E00B901A7 /* AVFoundation.framework */; };
+		0FD0C8D71F2864A100B901A7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8D61F2864A100B901A7 /* libc++.tbd */; };
+		0FD0C8D91F2864E000B901A7 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0C8D81F2864E000B901A7 /* AgoraRtcEngineKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0D4F1A1F2ED9EC0071F632 /* LiveRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveRoomViewController.swift; sourceTree = "<group>"; };
+		0F0D4F1C1F2F034D0071F632 /* VideoSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSession.swift; sourceTree = "<group>"; };
+		0F3201F21F2981BF00E9423B /* OpenLive-iOS-2.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenLive-iOS-2.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F3D73251F2E2A21005F25B6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0F3D73271F2E2A9D005F25B6 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		0F3D73291F2E2AFC005F25B6 /* KeyCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
+		0F3D732C1F2E3A45005F25B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F710D9D1F32ECEC002E886D /* Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		0FACB3191F28A993000E58D4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0FC623BA1F31AB8500D21EFF /* VideoViewLayouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewLayouter.swift; sourceTree = "<group>"; };
 		0FD0C8B21F28620900B901A7 /* OpenLive-iOS-2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenLive-iOS-2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD0C8B51F28620900B901A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FD0C8B71F28620900B901A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FD0C8BA1F28620900B901A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FD0C8BC1F28620900B901A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD0C8BF1F28620900B901A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FD0C8C11F28620900B901A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD0C8C81F28643900B901A7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		0FD0C8CA1F28645100B901A7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0FD0C8CC1F28646200B901A7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0FD0C8CE1F28646C00B901A7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0FD0C8D01F28647B00B901A7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		0FD0C8D21F28648200B901A7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0FD0C8D41F28648E00B901A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0FD0C8D61F2864A100B901A7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0FD0C8D81F2864E000B901A7 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = ../../Agora/Agora_Native_SDK_for_iOS_FULL_1.12/libs/AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +62,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD0C8D91F2864E000B901A7 /* AgoraRtcEngineKit.framework in Frameworks */,
+				0FD0C8D71F2864A100B901A7 /* libc++.tbd in Frameworks */,
+				0FD0C8D51F28648E00B901A7 /* AVFoundation.framework in Frameworks */,
+				0FD0C8D31F28648200B901A7 /* AudioToolbox.framework in Frameworks */,
+				0FD0C8D11F28647B00B901A7 /* VideoToolbox.framework in Frameworks */,
+				0FD0C8CF1F28646C00B901A7 /* CoreMotion.framework in Frameworks */,
+				0FD0C8CD1F28646200B901A7 /* CoreMedia.framework in Frameworks */,
+				0FD0C8CB1F28645100B901A7 /* CoreTelephony.framework in Frameworks */,
+				0FD0C8C91F28643900B901A7 /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +82,7 @@
 			children = (
 				0FD0C8B41F28620900B901A7 /* OpenLive-iOS-2.0 */,
 				0FD0C8B31F28620900B901A7 /* Products */,
+				0FD0C8C71F28643800B901A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,38 @@
 		0FD0C8B41F28620900B901A7 /* OpenLive-iOS-2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				0F3D732B1F2E3A45005F25B6 /* Main.storyboard */,
+				0FACB3191F28A993000E58D4 /* MainViewController.swift */,
+				0F3D73251F2E2A21005F25B6 /* SettingViewController.swift */,
+				0F0D4F1A1F2ED9EC0071F632 /* LiveRoomViewController.swift */,
+				0F0D4F1C1F2F034D0071F632 /* VideoSession.swift */,
+				0FC623BA1F31AB8500D21EFF /* VideoViewLayouter.swift */,
+				0F710D9D1F32ECEC002E886D /* Publisher.swift */,
+				0F3D73291F2E2AFC005F25B6 /* KeyCenter.swift */,
+				0F3D73271F2E2A9D005F25B6 /* ProfileCell.swift */,
 				0FD0C8B51F28620900B901A7 /* AppDelegate.swift */,
-				0FD0C8B71F28620900B901A7 /* ViewController.swift */,
-				0FD0C8B91F28620900B901A7 /* Main.storyboard */,
 				0FD0C8BC1F28620900B901A7 /* Assets.xcassets */,
 				0FD0C8BE1F28620900B901A7 /* LaunchScreen.storyboard */,
 				0FD0C8C11F28620900B901A7 /* Info.plist */,
+				0F3201F21F2981BF00E9423B /* OpenLive-iOS-2.0-Bridging-Header.h */,
 			);
 			path = "OpenLive-iOS-2.0";
+			sourceTree = "<group>";
+		};
+		0FD0C8C71F28643800B901A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FD0C8D81F2864E000B901A7 /* AgoraRtcEngineKit.framework */,
+				0FD0C8D61F2864A100B901A7 /* libc++.tbd */,
+				0FD0C8D41F28648E00B901A7 /* AVFoundation.framework */,
+				0FD0C8D21F28648200B901A7 /* AudioToolbox.framework */,
+				0FD0C8D01F28647B00B901A7 /* VideoToolbox.framework */,
+				0FD0C8CE1F28646C00B901A7 /* CoreMotion.framework */,
+				0FD0C8CC1F28646200B901A7 /* CoreMedia.framework */,
+				0FD0C8CA1F28645100B901A7 /* CoreTelephony.framework */,
+				0FD0C8C81F28643900B901A7 /* libresolv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,8 +163,9 @@
 				TargetAttributes = {
 					0FD0C8B11F28620900B901A7 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2ALK2JPWUB;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 48TB6ZZL5S;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -125,8 +193,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD0C8C01F28620900B901A7 /* LaunchScreen.storyboard in Resources */,
+				0F3D732D1F2E3A45005F25B6 /* Main.storyboard in Resources */,
 				0FD0C8BD1F28620900B901A7 /* Assets.xcassets in Resources */,
-				0FD0C8BB1F28620900B901A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,18 +205,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD0C8B81F28620900B901A7 /* ViewController.swift in Sources */,
+				0F710D9E1F32ECEC002E886D /* Publisher.swift in Sources */,
+				0F3D732A1F2E2AFC005F25B6 /* KeyCenter.swift in Sources */,
+				0FC623BB1F31AB8500D21EFF /* VideoViewLayouter.swift in Sources */,
+				0F0D4F1D1F2F034D0071F632 /* VideoSession.swift in Sources */,
 				0FD0C8B61F28620900B901A7 /* AppDelegate.swift in Sources */,
+				0F3D73281F2E2A9D005F25B6 /* ProfileCell.swift in Sources */,
+				0F0D4F1B1F2ED9EC0071F632 /* LiveRoomViewController.swift in Sources */,
+				0FACB31A1F28A993000E58D4 /* MainViewController.swift in Sources */,
+				0F3D73261F2E2A21005F25B6 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0FD0C8B91F28620900B901A7 /* Main.storyboard */ = {
+		0F3D732B1F2E3A45005F25B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0FD0C8BA1F28620900B901A7 /* Base */,
+				0F3D732C1F2E3A45005F25B6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -263,11 +338,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2ALK2JPWUB;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 48TB6ZZL5S;
+				FRAMEWORK_SEARCH_PATHS = "/Users/zhangji/Documents/MyDemo/OpenLive-iOS-2.0";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/include",
+				);
 				INFOPLIST_FILE = "OpenLive-iOS-2.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.OpenLive-iOS-2-0";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.OpenLive-iOS-2.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c84dd4f3-5094-44be-9e71-751e5f12371d";
+				PROVISIONING_PROFILE_SPECIFIER = AgoraIODev2017;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenLive-iOS-2.0/OpenLive-iOS-2.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,11 +362,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2ALK2JPWUB;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 48TB6ZZL5S;
+				FRAMEWORK_SEARCH_PATHS = "/Users/zhangji/Documents/MyDemo/OpenLive-iOS-2.0";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/include",
+				);
 				INFOPLIST_FILE = "OpenLive-iOS-2.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.OpenLive-iOS-2-0";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.OpenLive-iOS-2.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c84dd4f3-5094-44be-9e71-751e5f12371d";
+				PROVISIONING_PROFILE_SPECIFIER = AgoraIODev2017;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenLive-iOS-2.0/OpenLive-iOS-2.0-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +400,7 @@
 				0FD0C8C61F28620900B901A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
